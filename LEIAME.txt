@@ -1,0 +1,18 @@
+Gigi | Conta Kids — Fênix Soluções Tecnológicas — versão 1.6 (29/10/2026)
+(antes “Aportes Inteligentes”)
+
+NOVIDADES DA v1.6
+- Novo nome: Gigi | Conta Kids, com o ícone oficial da Gigi (abertura, cabeçalho, aba do navegador, atalho do celular).
+- Instituições financeiras: cadastre os bancos onde os 50% são guardados e escolha a instituição ao registrar cada valor
+  (fica lembrada). O card dos 50% mostra quanto está em cada banco; o histórico mostra onde cada aporte entrou.
+- Os dados já salvos continuam no aparelho (as contas antigas aparecem com "instituição não informada").
+v1.5: ícone oficial Fênix. v1.4: Painel em 2 partes. v1.1: Conta Kids (50/10/40, caixinhas).
+
+ARQUIVOS
+- fenix-gigi-conta-kids-v1.6.html   O aplicativo (arquivo único, abre offline, sem login).
+- fenix-gigi-conta-kids-manual-v1.6.md   Manual do usuário (também dentro do app, em Sobre).
+- fenix-gigi-conta-kids-testes-v1.6.js   Testes automatizados do motor (38 testes).
+- fenix-gigi-conta-kids-referencia-v1.6.py   Cálculo de referência exato usado nos testes.
+- fenix-gigi-conta-kids-v1.6.zip   Tudo acima em um só arquivo.
+
+TESTAR: node fenix-gigi-conta-kids-testes-v1.6.js fenix-gigi-conta-kids-v1.6.html
