@@ -1,18 +1,23 @@
-Gigi | Conta Kids — Fênix Soluções Tecnológicas — versão 1.6 (29/10/2026)
-(antes “Aportes Inteligentes”)
+Gigi | Conta Kids — Fênix Soluções Tecnológicas — versão 1.8 (11/11/2026)
 
-NOVIDADES DA v1.6
-- Novo nome: Gigi | Conta Kids, com o ícone oficial da Gigi (abertura, cabeçalho, aba do navegador, atalho do celular).
-- Instituições financeiras: cadastre os bancos onde os 50% são guardados e escolha a instituição ao registrar cada valor
-  (fica lembrada). O card dos 50% mostra quanto está em cada banco; o histórico mostra onde cada aporte entrou.
-- Os dados já salvos continuam no aparelho (as contas antigas aparecem com "instituição não informada").
-v1.5: ícone oficial Fênix. v1.4: Painel em 2 partes. v1.1: Conta Kids (50/10/40, caixinhas).
+NOVIDADES
+- Login Fênix (e-mail/senha ou Google), primeiro acesso guiado, abertura com som, avatar com menu.
+- Sincronização entre aparelhos em tempo real (Firebase) e indicador de conexão.
+- Backup (baixar/restaurar, restaurar pede APAGAR), Sobre, Manual com PDF e Preferências do core.
+- Tema claro, escuro ou automático.
+- Painel Kids: indicadores clicáveis mostram a composição dos números.
+- Padrão: Livro das Regras Fênix v4.8. Ficha marcada: A, B, E, F, G, H, I, J.
 
 ARQUIVOS
-- fenix-gigi-conta-kids-v1.6.html   O aplicativo (arquivo único, abre offline, sem login).
-- fenix-gigi-conta-kids-manual-v1.6.md   Manual do usuário (também dentro do app, em Sobre).
-- fenix-gigi-conta-kids-testes-v1.6.js   Testes automatizados do motor (38 testes).
-- fenix-gigi-conta-kids-referencia-v1.6.py   Cálculo de referência exato usado nos testes.
-- fenix-gigi-conta-kids-v1.6.zip   Tudo acima em um só arquivo.
+- fenix-gigi-conta-kids-v1.8.html   O aplicativo (cópia versionada, controle interno).
+- fenix-gigi-conta-kids.html   Cópia idêntica, sem versão no nome (é esta que o GitHub Pages / os links devem apontar).
+- fenix-gigi-conta-kids-manual-v1.8.md   Manual do usuário.
+- fenix-gigi-conta-kids-testes-v1.8.js   Testes automatizados do motor (40 testes).
+- fenix-gigi-conta-kids-referencia-v1.8.py   Cálculo de referência.
+- testes-navegador/   Testes de tela com Firebase falso (precisam de Node + Playwright).
+- fenix-gigi-conta-kids-v1.8.zip   Tudo em um só arquivo.
 
-TESTAR: node fenix-gigi-conta-kids-testes-v1.6.js fenix-gigi-conta-kids-v1.6.html
+TESTAR: node fenix-gigi-conta-kids-testes-v1.8.js fenix-gigi-conta-kids-v1.8.html
+
+ATENÇÃO NO GITHUB: o nome do arquivo mudou. Publique o fenix-gigi-conta-kids.html (e mantenha o antigo apenas se ainda houver links para ele).
+O app carrega o Fênix Core de https://fenicris-dev.github.io/Fenix-Core/fenix-core.js na primeira abertura (precisa de internet).
